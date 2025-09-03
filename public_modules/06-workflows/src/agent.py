@@ -194,7 +194,7 @@ async def entrypoint(ctx: JobContext):
         vad=ctx.proc.userdata["vad"],
         preemptive_generation=True,
         mcp_servers=[
-            mcp.MCPServerHTTP(url="http://shayne.app/sse"),
+            mcp.MCPServerHTTP(url="https://shayne.app/sse"),
         ],
     )
 
